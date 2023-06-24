@@ -10,6 +10,9 @@ function App() {
   ];
   
 
+  // You can pass an object as a prop:
+  //<ExpenseItem expense={expenses[1]}></ExpenseItem>
+  
   return (
     <div>
       <h2>Let's get started!</h2>
