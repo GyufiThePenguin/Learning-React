@@ -19,6 +19,11 @@ function App() {
       <p> This is also visible </p>
       <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
       
+       {
+        expenses.map(item =>(
+          <ExpenseItem title={item.title} amount={item.amount} date={item.date}></ExpenseItem>
+        ))
+       }
 
       
 
