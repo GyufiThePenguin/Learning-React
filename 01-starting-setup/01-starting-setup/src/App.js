@@ -1,4 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
 
 function App() {
 
@@ -17,13 +18,8 @@ function App() {
     <div>
       <h2>Let's get started!</h2>
       <p> This is also visible </p>
-      <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
       
-       {expenses.map(item =>(
-          <ExpenseItem title={item.title} amount={item.amount} date={item.date}></ExpenseItem>
-        ))}
-
-      
+      <Expenses items={expenses}/>
 
     </div>
   );
