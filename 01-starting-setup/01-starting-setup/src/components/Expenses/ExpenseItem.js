@@ -1,6 +1,6 @@
 import ExpenseDate from "./ExpenseDate";
-import "./ExpenseItem.css"
-import Card from "./Card.js"
+import "./css/ExpenseItem.css"
+import Card from "../UI/Card.js"
 
 // You can use JS Object destructuring for props:
 // function ExpenseItem({date, title, amount}) {
