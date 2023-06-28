@@ -3,7 +3,9 @@ import ExpenseItem from "./ExpenseItem"
 import "./css/Expenses.css"
 import Card from '../UI/Card';
 
-function Expenses(props) {
+
+//This is an arrow function
+const Expenses = (props) => {
 
     const expenses = props.items;
 
